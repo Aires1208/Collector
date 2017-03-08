@@ -1,0 +1,79 @@
+[
+  {
+    "traceId": "3189447294846486",
+    "id": "952f1ba4966a82dc",
+    "name": "http://localhost:5000/api",
+    "timestamp": 1483005720830715,
+    "duration": 4126353,
+    "annotations": [
+      {
+        "timestamp": 1483005720830715,
+        "value": "sr",
+        "endpoint": {
+          "serviceName": "test_svc1_python",
+          "ipv4": "127.0.1.1"
+        }
+      },
+      {
+        "timestamp": 1483005724957068,
+        "value": "ss",
+        "endpoint": {
+          "serviceName": "test_svc1_python",
+          "ipv4": "127.0.1.1"
+        }
+      }
+    ]
+  },
+  {
+    "traceId": "3189447294846486",
+    "id": "3886598647473318",
+    "name": "http://localhost:9010/todo/api/v1.0/tasks",
+    "parentId": "952f1ba4966a82dc",
+    "timestamp": 1483005720835187,
+    "duration": 2107529,
+    "annotations": [
+      {
+        "timestamp": 1483005720835187,
+        "value": "sr",
+        "endpoint": {
+          "serviceName": "test_svc2_python",
+          "ipv4": "127.0.1.1"
+        }
+      },
+      {
+        "timestamp": 1483005722942716,
+        "value": "ss",
+        "endpoint": {
+          "serviceName": "test_svc2_python",
+          "ipv4": "127.0.1.1"
+        }
+      }
+    ]
+  },
+  {
+    "traceId": "3189447294846486",
+    "id": "3305043393781552",
+    "name": "http://localhost:9020/todo/api/v2.0/tasks",
+    "parentId": "952f1ba4966a82dc",
+    "timestamp": 1483005722941748,
+    "duration": 2009172,
+    "annotations": [
+      {
+        "timestamp": 1483005722941748,
+        "value": "sr",
+        "endpoint": {
+          "serviceName": "test_svc3_python",
+          "ipv4": "127.0.1.1"
+        }
+      },
+      {
+        "timestamp": 1483005724950920,
+        "value": "ss",
+        "endpoint": {
+          "serviceName": "test_svc3_python",
+          "ipv4": "127.0.1.1"
+        }
+      }
+    ]
+  }
+]

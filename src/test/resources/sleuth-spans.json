@@ -1,0 +1,229 @@
+[
+    {
+        "traceId": "f599ce922df399f3",
+        "name": "http:/school/class",
+        "id": "f599ce922df399f3",
+        "timestamp": 1480500138129000,
+        "duration": 562995,
+        "annotations": [
+            {
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                },
+                "timestamp": 1480500138129000,
+                "value": "sr"
+            },
+            {
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                },
+                "timestamp": 1480500138692000,
+                "value": "ss"
+            }
+        ],
+        "binaryAnnotations": [
+            {
+                "key": "jdbc.query",
+                "value": "select `zipkin_annotations`.`trace_id`, `zipkin_annotations`.`span_id`, `zipkin_annotations`.`a_key`, `zipkin_annotations`.`a_value`, `zipkin_annotations`.`a_type`, `zipkin_annotations`.`a_timestamp`, `zipkin_annotations`.`endpoint_ipv4`, `zipkin_annotations`.`endpoint_port`, `zipkin_annotations`.`endpoint_service_name` from `zipkin_annotations` where `zipkin_annotations`.`trace_id` in (?) order by `zipkin_annotations`.`a_timestamp` asc, `zipkin_annotations`.`a_key` asc",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            }
+        ]
+    },
+    {
+        "traceId": "f599ce922df399f3",
+        "name": "get-classes",
+        "id": "37479147d9a62f16",
+        "parentId": "f599ce922df399f3",
+        "timestamp": 1480500138132000,
+        "duration": 559511,
+        "annotations": [],
+        "binaryAnnotations": [
+            {
+                "key": "lc",
+                "value": "unknown",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "mvc.controller.class",
+                "value": "StudentController",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "mvc.controller.method",
+                "value": "getClasses",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            }
+        ]
+    },
+    {
+        "traceId": "f599ce922df399f3",
+        "name": "http:/hello",
+        "id": "74174e60387a6aed",
+        "parentId": "37479147d9a62f16",
+        "timestamp": 1480500138199000,
+        "duration": 471000,
+        "annotations": [
+            {
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                },
+                "timestamp": 1480500138219000,
+                "value": "cs"
+            },
+            {
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                },
+                "timestamp": 1480500138690000,
+                "value": "cr"
+            }
+        ],
+        "binaryAnnotations": [
+            {
+                "key": "http.host",
+                "value": "10.62.100.139",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "http.method",
+                "value": "GET",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "http.path",
+                "value": "/hello",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "http.url",
+                "value": "http://10.62.100.139:3380/hello",
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "sa",
+                "value": true,
+                "endpoint": {
+                    "serviceName": "sleuth_layer1",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            }
+        ]
+    },
+    {
+        "traceId": "f599ce922df399f3",
+        "name": "http:/hello",
+        "id": "74174e60387a6aed",
+        "parentId": "37479147d9a62f16",
+        "timestamp": 1480500165594000,
+        "duration": 324275,
+        "annotations": [
+            {
+                "endpoint": {
+                    "serviceName": "sleuth_layer2",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                },
+                "timestamp": 1480500165594000,
+                "value": "sr"
+            },
+            {
+                "endpoint": {
+                    "serviceName": "sleuth_layer2",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                },
+                "timestamp": 1480500165918000,
+                "value": "ss"
+            }
+        ],
+        "binaryAnnotations": []
+    },
+    {
+        "traceId": "f599ce922df399f3",
+        "name": "say-hello",
+        "id": "03270b2988d587f3",
+        "parentId": "74174e60387a6aed",
+        "timestamp": 1480500165599000,
+        "duration": 317999,
+        "annotations": [],
+        "binaryAnnotations": [
+            {
+                "key": "lc",
+                "value": "unknown",
+                "endpoint": {
+                    "serviceName": "sleuth_layer2",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "mvc.controller.class",
+                "value": "SampleController",
+                "endpoint": {
+                    "serviceName": "sleuth_layer2",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "mvc.controller.method",
+                "value": "sayHello",
+                "endpoint": {
+                    "serviceName": "sleuth_layer2",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            },
+            {
+                "key": "random-sleep-millis",
+                "value": "311",
+                "endpoint": {
+                    "serviceName": "sleuth_layer2",
+                    "ipv4": "127.0.0.1",
+                    "port": 3380
+                }
+            }
+        ]
+    }
+]

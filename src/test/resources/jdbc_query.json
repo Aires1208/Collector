@@ -1,0 +1,143 @@
+[{
+	"traceId": "8694440295416935",
+	"name": "http://localhost:5000/hello",
+	"id": "2765230574796163",
+	"annotations": [{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188373960,
+		"value": "sr"
+	},
+	{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188373987,
+		"value": "ss"
+	}],
+	"binaryAnnotations": [],
+	"debug": false
+},{
+	"traceId": "8694440295416935",
+	"name": "insert",
+	"id": "2290430831469482",
+	"parentId": "2765230574796163",
+	"annotations": [{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188396400,
+		"value": "sr"
+	},
+	{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188396421,
+		"value": "ss"
+	}],
+	"binaryAnnotations": [{
+		"key": "jdbc.query",
+		"value": "INSERT INTO t_person(name) VALUES (ZhangSan)",
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		}
+	}],
+	"debug": false
+},{
+	"traceId": "8694440295416935",
+	"name": "update",
+	"id": "3334207544098789",
+	"parentId": "2765230574796163",
+	"annotations": [{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188411274,
+		"value": "sr"
+	},
+	{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188411295,
+		"value": "ss"
+	}],
+	"binaryAnnotations": [{
+		"key": "jdbc.query",
+		"value": "update t_person set name=Smith where id=1 and name=Smith",
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		}
+	}],
+	"debug": false
+},{
+	"traceId": "8694440295416935",
+	"name": "select",
+	"id": "4260359871673538",
+	"parentId": "2765230574796163",
+	"annotations": [{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188429323,
+		"value": "sr"
+	},
+	{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188429349,
+		"value": "ss"
+	}],
+	"binaryAnnotations": [{
+		"key": "jdbc.query",
+		"value": "SELECT * FROM t_person where id>0",
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		}
+	}],
+	"debug": false
+},{
+	"traceId": "8694440295416935",
+	"name": "delete",
+	"id": "7886392436357771",
+	"parentId": "2765230574796163",
+	"annotations": [{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188444635,
+		"value": "sr"
+	},
+	{
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		},
+		"timestamp": 1484672188444681,
+		"value": "ss"
+	}],
+	"binaryAnnotations": [{
+		"key": "jdbc.query",
+		"value": "delete from t_person where name=ZhangSan",
+		"endpoint": {
+			"serviceName": "app1",
+			"ipv4": "10.62.96.31"
+		}
+	}],
+	"debug": false
+}]

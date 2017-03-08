@@ -1,0 +1,445 @@
+[
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "9168fff95dbca93b",
+		"name" : "backend",
+		"parentId" : "b73ad42a1eba774d",
+		"timestamp" : 1480650316981000,
+		"duration" : 146820,
+		"binaryAnnotations" : [{
+				"key" : "lc",
+				"value" : "unknown",
+				"endpoint" : {
+					"serviceName" : "test_backend1",
+					"ipv4" : "127.0.1.1",
+					"port" : 9001
+				}
+			}, {
+				"key" : "mvc.controller.class",
+				"value" : "Backend1",
+				"endpoint" : {
+					"serviceName" : "test_backend1",
+					"ipv4" : "127.0.1.1",
+					"port" : 9001
+				}
+			}, {
+				"key" : "mvc.controller.method",
+				"value" : "backend",
+				"endpoint" : {
+					"serviceName" : "test_backend1",
+					"ipv4" : "127.0.1.1",
+					"port" : 9001
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "b73ad42a1eba774d",
+		"name" : "http:/backend1",
+		"parentId" : "f973a0d989fe0bd3",
+		"timestamp" : 1480650316934000,
+		"duration" : 314792,
+		"annotations" : [{
+				"timestamp" : 1480650316937000,
+				"value" : "sr",
+				"endpoint" : {
+					"serviceName" : "test_backend1",
+					"ipv4" : "127.0.1.1",
+					"port" : 9001
+				}
+			}, {
+				"timestamp" : 1480650317249000,
+				"value" : "ss",
+				"endpoint" : {
+					"serviceName" : "test_backend1",
+					"ipv4" : "127.0.1.1",
+					"port" : 9001
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "b73ad42a1eba774d",
+		"name" : "http:/backend1",
+		"parentId" : "f973a0d989fe0bd3",
+		"timestamp" : 1480650316689000,
+		"duration" : 487000,
+		"annotations" : [{
+				"timestamp" : 1480650316690000,
+				"value" : "cs",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"timestamp" : 1480650317177000,
+				"value" : "cr",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}
+		],
+		"binaryAnnotations" : [{
+				"key" : "http.host",
+				"value" : "localhost",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "http.method",
+				"value" : "GET",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "http.path",
+				"value" : "/backend1",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "http.url",
+				"value" : "http://localhost:9001/backend1",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "sa",
+				"value" : true,
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "694880989b883b49",
+		"name" : "backend",
+		"parentId" : "e22804f46553d585",
+		"timestamp" : 1480650317479000,
+		"duration" : 68877,
+		"binaryAnnotations" : [{
+				"key" : "lc",
+				"value" : "unknown",
+				"endpoint" : {
+					"serviceName" : "test_backend2",
+					"ipv4" : "127.0.1.1",
+					"port" : 9002
+				}
+			}, {
+				"key" : "mvc.controller.class",
+				"value" : "Backend2",
+				"endpoint" : {
+					"serviceName" : "test_backend2",
+					"ipv4" : "127.0.1.1",
+					"port" : 9002
+				}
+			}, {
+				"key" : "mvc.controller.method",
+				"value" : "backend",
+				"endpoint" : {
+					"serviceName" : "test_backend2",
+					"ipv4" : "127.0.1.1",
+					"port" : 9002
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "e22804f46553d585",
+		"name" : "http:/backend2",
+		"parentId" : "f973a0d989fe0bd3",
+		"timestamp" : 1480650317432000,
+		"duration" : 193289,
+		"annotations" : [{
+				"timestamp" : 1480650317438000,
+				"value" : "sr",
+				"endpoint" : {
+					"serviceName" : "test_backend2",
+					"ipv4" : "127.0.1.1",
+					"port" : 9002
+				}
+			}, {
+				"timestamp" : 1480650317625000,
+				"value" : "ss",
+				"endpoint" : {
+					"serviceName" : "test_backend2",
+					"ipv4" : "127.0.1.1",
+					"port" : 9002
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "99d419d4edd445d7",
+		"name" : "http:/middleend",
+		"parentId" : "295cc7083475b13c",
+		"timestamp" : 1480650315613000,
+		"duration" : 2138000,
+		"annotations" : [{
+				"timestamp" : 1480650315616000,
+				"value" : "cs",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"timestamp" : 1480650317754000,
+				"value" : "cr",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}
+		],
+		"binaryAnnotations" : [{
+				"key" : "http.host",
+				"value" : "localhost",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"key" : "http.method",
+				"value" : "GET",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"key" : "http.path",
+				"value" : "/middleend",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"key" : "http.url",
+				"value" : "http://localhost:9000/middleend",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"key" : "sa",
+				"value" : true,
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "295cc7083475b13c",
+		"name" : "frontend",
+		"parentId" : "8b86f55cef095dd9",
+		"timestamp" : 1480650313775000,
+		"duration" : 4863362,
+		"binaryAnnotations" : [{
+				"key" : "lc",
+				"value" : "unknown",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"key" : "mvc.controller.class",
+				"value" : "Frontend",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"key" : "mvc.controller.method",
+				"value" : "frontend",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "8b86f55cef095dd9",
+		"name" : "http:/",
+		"timestamp" : 1480650312050000,
+		"duration" : 6706295,
+		"annotations" : [{
+				"timestamp" : 1480650312081000,
+				"value" : "sr",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}, {
+				"timestamp" : 1480650318756000,
+				"value" : "ss",
+				"endpoint" : {
+					"serviceName" : "test_frontend",
+					"ipv4" : "127.0.1.1",
+					"port" : 8081
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "e22804f46553d585",
+		"name" : "http:/backend2",
+		"parentId" : "f973a0d989fe0bd3",
+		"timestamp" : 1480650317228000,
+		"duration" : 307000,
+		"annotations" : [{
+				"timestamp" : 1480650317229000,
+				"value" : "cs",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"timestamp" : 1480650317536000,
+				"value" : "cr",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}
+		],
+		"binaryAnnotations" : [{
+				"key" : "http.host",
+				"value" : "localhost",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "http.method",
+				"value" : "GET",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "http.path",
+				"value" : "/backend2",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "http.url",
+				"value" : "http://localhost:9002/backend2",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "sa",
+				"value" : true,
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "f973a0d989fe0bd3",
+		"name" : "middleend",
+		"parentId" : "99d419d4edd445d7",
+		"timestamp" : 1480650316641000,
+		"duration" : 950626,
+		"binaryAnnotations" : [{
+				"key" : "lc",
+				"value" : "unknown",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "mvc.controller.class",
+				"value" : "Middleend",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"key" : "mvc.controller.method",
+				"value" : "middleend",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}
+		]
+	},
+	{
+		"traceId" : "8b86f55cef095dd9",
+		"id" : "99d419d4edd445d7",
+		"name" : "http:/middleend",
+		"parentId" : "295cc7083475b13c",
+		"timestamp" : 1480650316613000,
+		"duration" : 981376,
+		"annotations" : [{
+				"timestamp" : 1480650316615000,
+				"value" : "sr",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}, {
+				"timestamp" : 1480650317594000,
+				"value" : "ss",
+				"endpoint" : {
+					"serviceName" : "test_middleend",
+					"ipv4" : "127.0.1.1",
+					"port" : 9000
+				}
+			}
+		]
+	}
+]
