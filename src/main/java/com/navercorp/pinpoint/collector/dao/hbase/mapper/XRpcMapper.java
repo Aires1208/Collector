@@ -7,7 +7,7 @@ import org.springframework.data.hadoop.hbase.RowMapper;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by ${10183966} on 11/23/16.
+ * Created by ${aires} on 11/23/16.
  */
 @Component
 public class XRpcMapper implements RowMapper<XRpc> {

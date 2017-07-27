@@ -5,7 +5,7 @@ import kafka.consumer.ConsumerConfig;
 import java.util.Properties;
 
 /**
- * Created by 10183966 on 8/9/16.
+ * Created by aires on 8/9/16.
  */
 public class ConsumerConfigCreator {
     public static ConsumerConfig createConsumerConfig(String zkconnect, String group) {

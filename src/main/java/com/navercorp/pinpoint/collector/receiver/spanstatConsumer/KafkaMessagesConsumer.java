@@ -1,7 +1,7 @@
 package com.navercorp.pinpoint.collector.receiver.spanstatConsumer;
 
 /**
- * Created by 10183966 on 8/10/16.
+ * Created by aires on 8/10/16.
  */
 
 import com.navercorp.pinpoint.collector.receiver.DispatchHandler;
